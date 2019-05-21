@@ -1,0 +1,471 @@
+/* ONLINE CV     */
+
+
+
+/* class Selectors*/
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway';
+}
+
+.main-nav{
+	padding: .5em 0;
+	overflow: hidden;
+	width: 90%;
+	margin: auto;
+}
+
+.nav-list li{
+	display: inline-block;
+	padding: 0 20px;
+	float: right;
+}
+.nav-list a{
+	color: white;
+	padding-right: 5px;
+	border-right: solid 2px greenyellow;
+	font-family: 'Raleway';
+	font-size: 1.2em;
+	margin: 1em;
+}
+.nav-list a:hover{
+	padding-left: 5px;
+	border-left: solid 2px violet;
+	border-right: none;
+}
+
+
+.nav-list{
+	text-align: center;
+}
+
+.main-header{
+	width: 70%;
+	margin: auto;
+	position: relative;
+}
+
+
+.container{
+	padding: 8% 0;
+	min-height: calc(90vh - 132px);
+	box-sizing: border-box;
+}
+
+h1{
+	font-family: 'Raleway';
+	letter-spacing: 4px;
+	color: white;
+	font-size: 50px;
+	text-shadow: 10px 10px 5px  black;
+	padding: 0;
+	margin: 0;
+}
+
+h1 + p {
+	color: greenyellow;
+	font-size: 2em;
+	margin: 0;
+	font-family:"Raleway";
+	border-bottom: 1px solid;
+	display: inline;
+	background: linear-gradient(90deg ,greenyellow ,white , greenyellow);
+	background-size: 80%;
+	animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+h1 + p:hover{
+	
+}
+
+.wrapper{
+	background-image:linear-gradient(to right, black, transparent),
+		            url(../image/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.button{
+	display: inline-block;
+	padding: 10px;
+	border: solid 1px white;
+	border-radius: 3px;
+	font-family:Raleway;
+	color: white;
+}
+
+.button:hover{
+	border: solid 1px violet;
+	color: violet;
+	animation: none;
+}
+
+
+#project-button{
+	animation: 5s flash ;
+}
+
+#project-button:hover{
+	animation: none;
+}
+
+#project-button:focus{
+	animation: none;
+}
+
+.footer  p{
+	font-size: 1.5em;
+	margin-left: 15%;
+	display: inline-block;
+}
+
+.footer i{
+	cursor: pointer;
+}
+
+
+.footer form{
+	display: inline-block;
+	margin-left: 35%;
+}
+
+.footer form input,
+.footer form button{
+	padding: 5px;
+	border-radius: 3px;
+	border: solid 1px black;
+	font-size: .8em;
+}
+
+.footer form button{
+	background-color: black;
+	box-shadow: 2px 2px 5px grey;
+	color: white;
+	cursor: pointer;
+}
+
+.footer form button:active{
+	color: black;
+	background-color: white;
+	border: solid 1px black
+}
+
+.affiliates{
+	padding-bottom: 5%;
+	margin-top: 2%;
+	color: white;
+	margin-left: 15%;
+}
+
+.affiliates img{
+	width: 15%;
+	vertical-align: middle;
+	margin-top: 4%;
+	opacity: 0.6;
+	cursor: pointer;
+	animation: 1s zoomIn;
+}
+
+.affiliates img:hover{
+	opacity: 1;
+}
+
+
+footer{
+	position: fixed;
+	width: 100%;
+}
+
+
+#stanford-tweak{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 1.2em;
+	padding-top: 20px;
+	opacity: 0.6;
+	animation: 1s zoomIn;
+}
+
+
+#stanford-logo{
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 25px;
+}
+
+
+/*   STYLES FOR PORTFOLIO PAGE*/
+
+#laptopng{
+	margin-left: 1%;
+	animation: 1s zoomIn ;
+}
+
+#portfoliodiv{
+	width: 90%;
+	position: relative;
+}
+
+
+#portfoliodiv i{
+	color: white;
+}
+
+#portfoliodesc{
+	width: 40%;
+	float: right;
+	color: white;
+	font-stretch: 3px;
+}
+
+#portfoliodesc i{
+	font-size: 1em;
+	color: violet;
+}
+
+#technologies{
+	font-size: 3em;
+}
+
+#next{
+  display: flex;
+}
+
+#nextright{
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 96%;
+	bottom: 50%;
+	animation: 1s fadeOutRight ;
+	transition: left .2s;
+}
+
+#nextright:hover{
+	animation: none;
+	left: 96.5%;
+}
+
+#nextright:active{
+	opacity: .5;
+}
+
+
+#nextleft{
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	margin-left: 20px;
+	bottom: 50%;
+	animation: 1s fadeOutLeft;
+	transition: margin-left .2s;
+}
+
+#nextleft:hover{
+	animation: none;
+	margin-left: 15px;
+}
+
+#nextleft:active{
+	opacity: .5;
+}
+
+#profilepic{
+	width: 20%;
+	border: solid 2px white;
+	padding: 8px;
+	position: absolute;
+	animation: 1s zoomIn;
+	left: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANNIMATE     */
+
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@-webkit-keyframes fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+.fadeOutRight {
+  -webkit-animation-name: fadeOutRight;
+  animation-name: fadeOutRight;
+}
+
+@-webkit-keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.fadeOutLeft {
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
