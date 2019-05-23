@@ -276,14 +276,25 @@ h1 + p:hover{
 	opacity: .5;
 }
 
-#profilepic{
+#profilediv{
+    color: gainsboro;
+}
+
+#profilediv i{
+    color: grey;
+    margin-left: 12%;
+}
+#profilediv span{
+    margin-left: 11%;
+}
+
+.profilepic{
 	width: 20%;
 	border: solid 2px white;
 	padding: 8px;
-	position: absolute;
-	animation: 1s zoomIn;
-	left: 70%;
+    margin-left: 5%;
 }
+
 
 
 

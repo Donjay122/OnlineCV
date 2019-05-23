@@ -258,7 +258,8 @@ if($_GET["directory"] == "home"){
 
 
         <div id="profilediv">
-        	<img src="image/profile.png" id="profilepic">
+        	  <img src="image/profile.png" class="profilepic"><br>
+              <i>Founder <br></i><span> GODONWEB </span>
         </div>
 
 
