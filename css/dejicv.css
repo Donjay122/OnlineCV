@@ -179,11 +179,6 @@ h1 + p:hover{
 }
 
 
-footer{
-	position: fixed;
-	width: 100%;
-}
-
 
 #stanford-tweak{
 	display: inline-block;
