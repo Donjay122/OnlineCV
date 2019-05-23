@@ -206,8 +206,9 @@ h1 + p:hover{
 }
 
 #portfoliodiv{
-	width: 90%;
+	width: 80%;
 	position: relative;
+    margin: auto;
 }
 
 
@@ -220,6 +221,7 @@ h1 + p:hover{
 	float: right;
 	color: white;
 	font-stretch: 3px;
+    text-align: right;
 }
 
 #portfoliodesc i{
