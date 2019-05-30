@@ -296,9 +296,12 @@ h1 + p:hover{
 }
 
 .fa-bars{
-    color: tomato;
-    font-size: 3em;
+    display: none;
 }
+
+
+
+
 
 
 
@@ -336,15 +339,29 @@ h1 + p:hover{
     }
     
     .main-header{
+        padding-right: none;
         position: absolute;
         bottom: 30%;
-        left: 20%;
+        left: 10%;
         width: 90%;
     }
     
     .container{
         padding: 5%;
+	    min-height: calc(100vh - 132px);
     }
+    
+    .nav-list{
+    display: none;
+}
+    
+    .fa-bars{
+    display: block;
+    color: white;
+    font-size: 2.5em;
+    float: right;
+    padding: .2em;
+}
 
 }
 

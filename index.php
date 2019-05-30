@@ -61,6 +61,9 @@ if($_GET["directory"] == "home"){
 								<li><a href="index.php?directory=portfolio"><i class="fas fa-layer-group"></i>&nbsp;Portfolio</a></li>
 								<li><a href="index.php?directory=home"><i class="fas fa-home"></i>&nbsp;Home</a></li>
 							</ul>
+                            <div class="bar-icons">
+                                <i class="fas fa-bars"></i>
+                            </div>
 						</div><!--main-nav-->
 					</nav>
 
@@ -77,7 +80,7 @@ if($_GET["directory"] == "home"){
 					<header>
 						<div class="main-header">
 							<h1>Ayodeji Adediran</h1>
-							<p>Fullstack Developer</p><br>
+							<p>Fullstack Developer&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
 							<a href="index.php?directory=portfolio" id="project-button"><p class="button"><i class="far fa-eye"></i>&nbsp;View project</p></a>
 							<a href="#"><p class="button"><i class="fas fa-envelope"></i>&nbsp;Contact</p></a><br>
 						</div>
