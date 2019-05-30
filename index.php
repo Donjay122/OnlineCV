@@ -187,7 +187,7 @@ if($_GET["directory"] == "home"){
 	             <img src="image/laptop3.png" width="50%" id="laptopng"> 
 	             <div id="portfoliodesc">
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;Travel Booking</span><br><br>
-	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Codespace Travel Booking App project. Built during &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MySQL database course.</span><br><br>
+	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Codespace Travel Booking App project. Built during MySQL database course.</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Author:&nbsp;&nbsp;Ayodeji Adediran</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span><a class="button" href="#">Demo</a></span>
 	                <span><a class="button" href="#">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -275,7 +275,7 @@ if($_GET["directory"] == "home"){
 
 
         <div id="profilediv">
-        	  <img src="image/profile.png" class="profilepic"><br>
+        	  <img src="image/profilepic2.jpg" class="profilepic"><br>
               <i>Founder <br></i><span> GODONWEB </span>
         </div>
 
