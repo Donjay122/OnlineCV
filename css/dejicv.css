@@ -310,7 +310,70 @@ h1 + p:hover{
     display: none;
 }
 
+.send-message{
+    width: 70%;
+    color: white;
+    text-align: center;
+}
 
+
+.send-message input,
+.send-message textarea{
+    margin: .1em 0;
+    padding: .5em .2em;
+    font-size: 1.5em;
+    width: 50%;
+    border-radius: 4px;
+    border: solid 1px white;
+    background-color: transparent;
+    color: white;
+}
+
+.send-message input:focus,
+.send-message textarea:focus{
+    border: solid 1px yellowgreen;
+}
+
+.send-message button{
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.send-message button:hover{
+    color: yellowgreen;
+}
+
+.send-message button:active{
+    color: white;
+}
+
+.contact-div{
+    display: flex;
+}
+
+
+.fa-whatsapp,
+.fa-envelope-square{
+    font-size: 2em;
+    color: greenyellow;
+    margin-bottom: .5em;
+}
+
+.contact-details{
+    position: absolute;
+    bottom:  35%;
+    right: 10%;
+}
+
+.contact-details span{
+    color: white;
+    font-size: 1.2em;
+}
 
 
 

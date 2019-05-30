@@ -289,6 +289,45 @@ if($_GET["directory"] == "home"){
 
 
 
+        <?php }else if($pageTitle == "Contact"){ ?>
+                
+            
+        <div class="contact-div">    
+           <table class="send-message">
+               <form>
+
+                   <tr>
+                       <th>
+                           <h3>Send a Message</h3>
+                           <input type="text" name="name" id="name" placeholder="Name"></th>
+                   </tr>
+                   
+                   <tr>
+                       <th>
+                           <input type="email" name="email" id="email" placeholder="Email"></th>
+                   </tr>
+                   
+                   <tr>
+                       <th>
+                           <input type="number" name="phone" id="phone" placeholder="Phone"></th>
+                   </tr>
+                   
+                   <tr>
+                       <th>
+                           <textarea  name="message" id="message" placeholder="Message"></textarea><br>
+                           <button><i class="fas fa-paper-plane"></i></button>
+                   </tr>
+                </form>
+            </table> 
+            
+            <div class="contact-details">
+               <i class="fab fa-whatsapp"></i>&nbsp;&nbsp;<span>+27739594395</span><br>
+                <i class="fas fa-envelope-square"></i>&nbsp;&nbsp;<span>godonweb1@gmail.com</span>
+            </div>
+            
+            </div>    
+                
+                
         <?php } ?>
 			</div><!--container------------------------------------------------------------------------->	
 
