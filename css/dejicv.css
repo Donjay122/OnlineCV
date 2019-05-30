@@ -380,17 +380,18 @@ h1 + p:hover{
     top: 0%;
     left: 0%;
     z-index: 1;
-    animation: 1s fadeInDown;
 }
     
     .open ul{
         text-align: center;
-        width: 100%;
+        width: 90%;
         font-size: 2em;
     }
     
     .open li{
         margin-bottom: 1em;
+        text-decoration: underline;
+        text-decoration-color: violet;
     }
     
     .fa-times{
@@ -619,6 +620,38 @@ h1 + p:hover{
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
+
+
+
+@-webkit-keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes fadeOutUp {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+}
+
 
 
 
