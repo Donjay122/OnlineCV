@@ -77,7 +77,7 @@ if($_GET["directory"] == "home"){
 					<header>
 						<div class="main-header">
 							<h1>Ayodeji Adediran</h1>
-							<p>Fullstack Developer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
+							<p>Fullstack Developer</p><br>
 							<a href="index.php?directory=portfolio" id="project-button"><p class="button"><i class="far fa-eye"></i>&nbsp;View project</p></a>
 							<a href="#"><p class="button"><i class="fas fa-envelope"></i>&nbsp;Contact</p></a><br>
 						</div>
