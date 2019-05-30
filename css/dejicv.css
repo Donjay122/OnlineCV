@@ -328,6 +328,7 @@ h1 + p:hover{
     .footer  p{
         font-size: 3em;
         display: block;
+        margin-bottom: 0;
         margin-left: 0;
         text-align: center;
     }
@@ -355,7 +356,7 @@ h1 + p:hover{
     
     .container{
         padding: 5%;
-	    min-height: calc(100vh - 132px);
+	    max-height: calc(100vh - 132px);
     }
     
     .nav-list{
@@ -373,7 +374,7 @@ h1 + p:hover{
     
     .open{
     width: 100%;
-    padding: 45vh 0;
+    padding: 18vh 0;
     background-color: white;
     position: absolute;
     top: 0%;
@@ -381,6 +382,16 @@ h1 + p:hover{
     z-index: 1;
     animation: 1s fadeInDown;
 }
+    
+    .open ul{
+        text-align: center;
+        width: 100%;
+        font-size: 2em;
+    }
+    
+    .open li{
+        margin-bottom: 1em;
+    }
     
     .fa-times{
         font-size: 3em;

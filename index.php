@@ -84,7 +84,14 @@ if($_GET["directory"] == "home"){
 					<header>
                         <div class="open">
                             <i class="fas fa-times"></i>
+                            <ul>
+                                <li>Home</li>
+                                <li>Portfolio</li>
+                                <li>About</li>
+                                <li>Contact</li>
+                            </ul>
                         </div>
+                        
 						<div class="main-header">
 							<h1>Ayodeji Adediran</h1>
 							<p>Fullstack Developer&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
