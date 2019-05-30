@@ -10,6 +10,7 @@ body{
 	padding: 0;
 	margin: 0;
 	font-family: 'Raleway';
+    position: relative;
 }
 
 .main-nav{
@@ -46,7 +47,6 @@ body{
 .main-header{
 	width: 70%;
 	margin: auto;
-	position: relative;
 }
 
 
@@ -90,6 +90,7 @@ h1 + p:hover{
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
+    position: relative;
 
 }
 
@@ -299,6 +300,11 @@ h1 + p:hover{
     display: none;
 }
 
+.open{
+    display: none;
+}
+
+
 
 
 
@@ -312,6 +318,7 @@ h1 + p:hover{
 @media (max-width: 450px){
     .wrapper{
         background-size: auto;
+        position: relative;
     }
     
     .footer form{
@@ -361,7 +368,29 @@ h1 + p:hover{
     font-size: 2.5em;
     float: right;
     padding: .2em;
+    cursor: pointer;
 }
+    
+    .open{
+    width: 100%;
+    padding: 45vh 0;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    animation: 1s fadeInDown;
+}
+    
+    .fa-times{
+        font-size: 3em;
+        position: absolute;
+        top: 2%;
+        right: 7%;
+        cursor: pointer;
+    }
+    
+
 
 }
 
@@ -545,6 +574,39 @@ h1 + p:hover{
 .zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: .7;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: .7;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
 
 

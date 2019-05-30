@@ -52,6 +52,7 @@ if($_GET["directory"] == "home"){
 		<link rel="stylesheet" href="css/dejicv.css">
 	</head>
 		<body>
+
 			<div class="wrapper">
 				<nav>
 						<div class="main-nav">
@@ -61,11 +62,14 @@ if($_GET["directory"] == "home"){
 								<li><a href="index.php?directory=portfolio"><i class="fas fa-layer-group"></i>&nbsp;Portfolio</a></li>
 								<li><a href="index.php?directory=home"><i class="fas fa-home"></i>&nbsp;Home</a></li>
 							</ul>
+                            
                             <div class="bar-icons">
                                 <i class="fas fa-bars"></i>
                             </div>
+                            
 						</div><!--main-nav-->
 					</nav>
+
 
 			<div class="container">
 
@@ -78,6 +82,9 @@ if($_GET["directory"] == "home"){
 
 
 					<header>
+                        <div class="open">
+                            <i class="fas fa-times"></i>
+                        </div>
 						<div class="main-header">
 							<h1>Ayodeji Adediran</h1>
 							<p>Fullstack Developer&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
@@ -99,6 +106,7 @@ if($_GET["directory"] == "home"){
 					<p id="stanford-tweak">| ONLINE</p>
 					</div>
 				</div>
+
 
 
 
@@ -282,7 +290,9 @@ if($_GET["directory"] == "home"){
 				<div class="footer">
 					<p class="copyright"><i class="fab fa-twitter-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-github-square"></i></p>&nbsp;&nbsp;&nbsp;<span class="copyrightname">&copy; 2019 Adediran Ayodeji</span><form><input type="text" name="name" placeholder="Medium updates...">&nbsp;<button>Subscribe&nbsp;&nbsp;<i class="fab fa-medium"></i></button></form>
 				</div>
+
 			</footer>
-            <script src="js/index.js" type="text/javascript"></script>
+            
+            <?php echo "<script src='index.js' type='text/javascript'></script> "?>;           
 		</body>
 </html>
