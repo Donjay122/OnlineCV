@@ -85,10 +85,10 @@ if($_GET["directory"] == "home"){
                         <div class="open">
                             <i class="fas fa-times"></i>
                             <ul>
-                                <li>&nbsp;&nbsp;Home&nbsp;&nbsp;</li>
-                                <li>&nbsp;&nbsp;Portfolio&nbsp;&nbsp;</li>
-                                <li>&nbsp;&nbsp;About&nbsp;&nbsp;</li>
-                                <li>&nbsp;&nbsp;Contact&nbsp;&nbsp;</li>
+                                <a href="index.php?directory=home"><li>&nbsp;&nbsp;Home&nbsp;&nbsp;</li></a>
+                                <a href="index.php?directory=portfolio"><li>&nbsp;&nbsp;Portfolio&nbsp;&nbsp;</li></a>
+                                <a href="index.php?directory=about"><li>&nbsp;&nbsp;About&nbsp;&nbsp;</li></a>
+                                <a href="index.php?directory=contact"><li>&nbsp;&nbsp;Contact&nbsp;&nbsp;</li></a>
                             </ul>
                         </div>
                         
