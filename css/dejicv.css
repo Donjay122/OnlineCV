@@ -299,6 +299,42 @@ h1 + p:hover{
 
 
 
+/************MEDIA QUERIES*****************/
+
+@media (max-width: 450px){
+    .wrapper{
+        background-size: auto;
+    }
+    
+    .footer form{
+        display: none;
+    }
+    
+    .footer  p{
+        font-size: 3em;
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .copyrightname{
+        display: block;
+        text-align: center;
+    }
+    
+    .copyright{
+        margin: .3em;
+    }
+    
+    .affiliates{
+        display: none;
+    }
+
+}
+
+
+
+
 
 
 
@@ -477,3 +513,8 @@ h1 + p:hover{
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
 }
+
+
+
+
+
