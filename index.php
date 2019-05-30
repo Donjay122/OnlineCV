@@ -45,7 +45,6 @@ if($_GET["directory"] == "home"){
 		<meta name="author" content="Adediran Ayodeji">
 		<meta name="description" content="Ayodeji's Online CV">
 		<meta name="keywords" content="Ayodeji Adediran , Online CV , Codespace challenge ">
-		<script src="js/index.js" type="text/javascript"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
@@ -281,5 +280,6 @@ if($_GET["directory"] == "home"){
 					<p class="copyright"><i class="fab fa-twitter-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-github-square"></i></p>&nbsp;&nbsp;&nbsp;<span class="copyrightname">&copy; 2019 Adediran Ayodeji</span><form><input type="text" name="name" placeholder="Medium updates...">&nbsp;<button>Subscribe&nbsp;&nbsp;<i class="fab fa-medium"></i></button></form>
 				</div>
 			</footer>
+            <script src="js/index.js" type="text/javascript"></script>
 		</body>
 </html>
