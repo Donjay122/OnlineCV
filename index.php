@@ -45,6 +45,7 @@ if($_GET["directory"] == "home"){
 		<meta name="author" content="Adediran Ayodeji">
 		<meta name="description" content="Ayodeji's Online CV">
 		<meta name="keywords" content="Ayodeji Adediran , Online CV , Codespace challenge ">
+        <script src="lottie.js" type="text/javascript"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
@@ -56,6 +57,8 @@ if($_GET["directory"] == "home"){
 			<div class="wrapper">
 				<nav>
 						<div class="main-nav">
+                            <div id="blink"></div>
+                            <script src="blink.js"></script>
 							<ul class="nav-list">
 								<li><a href="index.php?directory=contact"><i class="fas fa-envelope"></i>&nbsp;Contact</a></li>
 								<li><a href="index.php?directory=about"><i class="far fa-address-card"></i>&nbsp;About me</a></li>
@@ -277,6 +280,14 @@ if($_GET["directory"] == "home"){
         <div id="profilediv">
         	  <img src="image/profilepic2.jpg" class="profilepic"><br>
               <i>Founder <br></i><span> GODONWEB </span>
+            <div class="about-me">
+                
+            </div>
+            <style>.wrapper{background-image: linear-gradient(white,white);}
+                    .nav-list a{color: black;}
+                    .fa-bars{color: black;}
+                    #profilediv i , #profilediv span{ display: none;}
+            </style>
         </div>
 
 
@@ -339,6 +350,6 @@ if($_GET["directory"] == "home"){
 
 			</footer>
             
-            <?php echo "<script src='index.js' type='text/javascript'></script> "?>;           
+            <script src='index.js' type='text/javascript'></script>
 		</body>
 </html>

@@ -278,7 +278,7 @@ h1 + p:hover{
 }
 
 #profilediv{
-    color: gainsboro;
+    color: black;
 }
 
 #profilediv i{
@@ -291,7 +291,7 @@ h1 + p:hover{
 
 .profilepic{
 	width: 35%;
-	border: solid 2px white;
+	border: solid 2px grey;
 	padding: 8px;
     margin-left: 5%;
     cursor: zoom-in;
@@ -373,6 +373,12 @@ h1 + p:hover{
 .contact-details span{
     color: white;
     font-size: 1.2em;
+}
+
+#blink{
+    width: 5%;
+    position: absolute;
+    top: -2%;
 }
 
 
@@ -472,13 +478,6 @@ h1 + p:hover{
     }
     
     
-    
-    
-    
-    
-    
-    
-    
 .send-message{
     width: 90%;
 }
@@ -517,9 +516,18 @@ h1 + p:hover{
     font-size: 1em;
 }
 
-
+    .profilepic{
+        width: 90%;
+        padding: 0;
+    }
     
-
+    .profilepic:hover{
+        transform: none;
+    }
+    
+#blink{
+    width: 15%;
+}
 
 }
 
