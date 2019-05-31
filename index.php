@@ -57,7 +57,7 @@ if($_GET["directory"] == "home"){
 			<div class="wrapper">
 				<nav>
 						<div class="main-nav">
-                            <div id="blink"></div>
+                            <a href="index.php"><div id="blink"></div></a>
                             <script src="blink.js"></script>
 							<ul class="nav-list">
 								<li><a href="index.php?directory=contact"><i class="fas fa-envelope"></i>&nbsp;Contact</a></li>
@@ -278,20 +278,21 @@ if($_GET["directory"] == "home"){
 
 
         <div id="profilediv">
-        	  <img src="image/profilepic2.jpg" class="profilepic"><br>
-              <i>Founder <br></i><span> GODONWEB </span>
+        	  <img src="image/profilepic2.png" class="profilepic">
             <div class="about-me">
-                
+               <p>Joining shapes,arranging lines to form patterns, Mixing colors in sight appealing methods are what makes a good design.</p> 
+                <p>I'm a fine artist who now sees a blank canvas on the web .</p>
+                <p>My passion for creativity has been my driving force to learning new skills and working with modern tools.</p>
+                <p>Applying design thinking to solve problems is something i find interesting and challenging</p>
             </div>
             <style>.wrapper{background-image: linear-gradient(white,white);}
                     .nav-list a{color: black;}
                     .fa-bars{color: black;}
-                    #profilediv i , #profilediv span{ display: none;}
             </style>
         </div>
 
 
-
+<!--Joining shapes,arranging lines to form patterns, Mixing colors in sight appealing methods are what makes a good design. I'm a fine artist who now sees a blank canvas on the web . My passion for creativity has been my driving force to learning new skills and working with modern tools. Applying design thinking to solve problems is something i find interesting and challenging, -->
 
 
 
@@ -345,7 +346,7 @@ if($_GET["directory"] == "home"){
 		</div><!--wrapper-->	
 	        <footer>
 				<div class="footer">
-					<p class="copyright"><i class="fab fa-twitter-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-github-square"></i></p>&nbsp;&nbsp;&nbsp;<span class="copyrightname">&copy; 2019 Adediran Ayodeji</span><form><input type="text" name="name" placeholder="Medium updates...">&nbsp;<button>Subscribe&nbsp;&nbsp;<i class="fab fa-medium"></i></button></form>
+					<p class="copyright"><i class="fab fa-twitter-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-github-square"></i></p>&nbsp;&nbsp;&nbsp;<span class="copyrightname">&copy; 2019 Ayodeji Adediran</span><form><input type="text" name="name" placeholder="Medium updates...">&nbsp;<button>Subscribe&nbsp;&nbsp;<i class="fab fa-medium"></i></button></form>
 				</div>
 
 			</footer>
