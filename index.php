@@ -99,7 +99,7 @@ if($_GET["directory"] == "home"){
 							<h1>Ayodeji Adediran</h1>
 							<p>Fullstack Developer&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
 							<a href="index.php?directory=portfolio" id="project-button"><p class="button"><i class="far fa-eye"></i>&nbsp;View project</p></a>
-							<a href="#"><p class="button"><i class="fas fa-envelope"></i>&nbsp;Contact</p></a><br>
+							<a href="index.php?directory=contact"><p class="button"><i class="fas fa-envelope"></i>&nbsp;Contact</p></a><br>
 						</div>
 					</header>
 				
@@ -127,6 +127,7 @@ if($_GET["directory"] == "home"){
 
              
              <div id="portfoliodiv">
+                 <img src="image/timekeepermobile.png" id="mobilelaptopng" >
 	             <img src="image/laptop.png" width="50%" id="laptopng"> 
 	             <div id="portfoliodesc">
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;TimeKeeper</span><br><br>
@@ -285,7 +286,8 @@ if($_GET["directory"] == "home"){
                 <p>My passion for creativity has been my driving force to learning new skills and working with modern tools.</p>
                 <p>Applying design thinking to solve problems is something i find interesting and challenging</p>
             </div>
-            <style>.wrapper{background-image: linear-gradient(white,white);}
+            <style>.wrapper{background-image: linear-gradient(white,white);
+                    max-height: 80vh;}
                     .nav-list a{color: black;}
                     .fa-bars{color: black;}
             </style>

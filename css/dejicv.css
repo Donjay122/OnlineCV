@@ -206,6 +206,10 @@ h1 + p:hover{
 	animation: 1s zoomIn ;
 }
 
+#mobilelaptopng{
+    display: none;
+}
+
 #portfoliodiv{
 	width: 80%;
 	position: relative;
@@ -242,7 +246,7 @@ h1 + p:hover{
 	font-size: 2em;
 	color: white;
 	position: absolute;
-	left: 96%;
+	right:3%;
 	bottom: 50%;
 	animation: 1s fadeOutRight ;
 	transition: left .2s;
@@ -250,7 +254,7 @@ h1 + p:hover{
 
 #nextright:hover{
 	animation: none;
-	left: 96.5%;
+	right: 2.5%;
 }
 
 #nextright:active{
@@ -262,7 +266,7 @@ h1 + p:hover{
 	font-size: 2em;
 	color: white;
 	position: absolute;
-	margin-left: 20px;
+	margin-left: 4%;
 	bottom: 50%;
 	animation: 1s fadeOutLeft;
 	transition: margin-left .2s;
@@ -270,7 +274,7 @@ h1 + p:hover{
 
 #nextleft:hover{
 	animation: none;
-	margin-left: 15px;
+	margin-left: 3.5%;
 }
 
 #nextleft:active{
@@ -542,6 +546,30 @@ h1 + p:hover{
     width: 15%;
 }
 
+  /*PORTFOLIO*/
+    
+    
+#laptopng{
+    display: none;
+}
+
+
+#portfoliodesc{
+	width: 100%;
+    margin-right: 1.5em;;
+    font-size: 1.2em;
+}
+
+    #mobilelaptopng{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1em;
+        display: block;
+        padding: 3px;
+        background-color: white;
+    }
+    
+    
 }
 
 
