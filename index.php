@@ -157,6 +157,7 @@ if($_GET["directory"] == "home"){
 
 
              <div id="portfoliodiv">
+                 <img src="image/spacebotmobile.png" id="mobilelaptopng" >
 	             <img src="image/laptop2.png" width="50%" id="laptopng"> 
 	             <div id="portfoliodesc">
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;SpaceBot</span><br><br>
@@ -188,6 +189,7 @@ if($_GET["directory"] == "home"){
 
 
              <div id="portfoliodiv">
+                 <img src="image/travelmobile.png" id="mobilelaptopng" >
 	             <img src="image/laptop3.png" width="50%" id="laptopng"> 
 	             <div id="portfoliodesc">
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;Travel Booking</span><br><br>
@@ -216,6 +218,7 @@ if($_GET["directory"] == "home"){
 
 
              <div id="portfoliodiv">
+                 <img src="image/musicbankmobile.png" id="mobilelaptopng" >
 	             <img src="image/laptop4.png" width="50%" id="laptopng"> 
 	             <div id="portfoliodesc">
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;MusicBank</span><br><br>
@@ -247,6 +250,7 @@ if($_GET["directory"] == "home"){
 
 
              <div id="portfoliodiv">
+                 <img src="image/quizmobile.png" id="mobilelaptopng" >
 	             <img src="image/laptop5.png" width="50%" id="laptopng"> 
 	             <div id="portfoliodesc">
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;Quiz Challenge</span><br><br>
