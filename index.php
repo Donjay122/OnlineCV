@@ -290,8 +290,7 @@ if($_GET["directory"] == "home"){
                 <p>My passion for creativity has been my driving force to learning new skills and working with modern tools.</p>
                 <p>Applying design thinking to solve problems is something i find interesting and challenging</p>
             </div>
-            <style>.wrapper{background-image: linear-gradient(white,white);
-                    max-height: 80vh;}
+            <style>.wrapper{background-image: linear-gradient(white,white);}
                     .nav-list a{color: black;}
                     .fa-bars{color: black;}
             </style>
