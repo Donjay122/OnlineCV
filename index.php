@@ -286,9 +286,10 @@ if($_GET["directory"] == "home"){
         	  <img src="image/profilepic2.png" class="profilepic">
             <div class="about-me">
                <p>Joining shapes,arranging lines to form patterns, Mixing colors in sight appealing methods are what makes a good design.</p> 
-                <p>I'm a fine artist who now sees a blank canvas on the web .</p>
-                <p>My passion for creativity has been my driving force to learning new skills and working with modern tools.</p>
-                <p>Applying design thinking to solve problems is something i find interesting and challenging</p>
+                <p>I'm a fine artist who now sees a blank canvas on the web .My passion for creativity has been my driving force to learning new skills and working with modern tools.</p>
+                <p></p>
+                <p>I spend most of my time Coding out my ideas by learning online , trying codes out, sketching , solving problems through design thinking which has been fun and challenging ,playing games and writing poems <a href="#">Read Poem</a>.  </p>
+                <p>Right now, </p>
             </div>
             <style>.wrapper{background-image: linear-gradient(white,white);}
                     .nav-list a{color: black;}
