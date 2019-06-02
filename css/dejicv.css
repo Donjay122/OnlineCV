@@ -290,7 +290,7 @@ h1 + p:hover{
 
 .profilepic{
 	width: 40%;
-    height: 50vh;
+    height: 45vh;
     padding: .2em;
 	border: solid 2px grey;
     margin: 1em;
@@ -385,6 +385,21 @@ h1 + p:hover{
 .about-me{
     width: 50%;
     font-size: 1.1em;
+}
+
+
+
+
+
+/********************POEM********************/
+
+.poemdiv{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.poemNumbers{
+    font-size: 2em;
 }
 
 
