@@ -25,7 +25,10 @@ function getUserIpAddr(){
     }
     return $ip;
 }
-    
+
+$ip = getUserIpAddr();
+/////COUNTRY FROM IP API
+$xml = simplexml_load_file("http://ip-api.com/xml/".$ip);
 
 $name =$_POST['name'];
 $email =$_POST['email'];
@@ -34,7 +37,7 @@ $phone =$_POST['phone'];
 $message.="Name : $name \n";
 $message.="Email : $email \n";
 $message.="Phone : $phone \n";
-$message.= "IP: ".getUserIpAddr()."\n";
+$message.= "Country: ".$xml->country."\n";
 $message.="Message: ".$_POST['message'];
     
     
