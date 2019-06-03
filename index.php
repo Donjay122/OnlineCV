@@ -80,46 +80,14 @@ if($_GET["directory"] == "home"){
 
 
 			<?php if($pageTitle == "Home" || $pageTitle == ''){?>
+                
+                
+                
 
-
-
-
-					<header>
-                        <div class="open">
-                            <i class="fas fa-times"></i>
-                            <ul>
-                                <a href="index.php?directory=home"><li>&nbsp;&nbsp;Home&nbsp;&nbsp;</li></a>
-                                <a href="index.php?directory=portfolio"><li>&nbsp;&nbsp;Portfolio&nbsp;&nbsp;</li></a>
-                                <a href="index.php?directory=about"><li>&nbsp;&nbsp;About&nbsp;&nbsp;</li></a>
-                                <a href="index.php?directory=contact"><li>&nbsp;&nbsp;Contact&nbsp;&nbsp;</li></a>
-                            </ul>
-                        </div>
-                        
-						<div class="main-header">
-							<h1>Ayodeji Adediran</h1>
-							<p>Fullstack Developer&nbsp;&nbsp;&nbsp;&nbsp;</p><br>
-							<a href="index.php?directory=portfolio" id="project-button"><p class="button"><i class="far fa-eye"></i>&nbsp;View project</p></a>
-							<a href="index.php?directory=contact"><p class="button"><i class="fas fa-envelope"></i>&nbsp;Contact</p></a><br>
-						</div>
-					</header>
-				
-				
-				<div class="affiliates">
-					<img src="image/treehouse.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<img src="image/codespace-primary-logo.svg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<div id="stanford-logo">
-					<img src="image/stanford.png" id="stanford-logo">
-					<p id="stanford-tweak">| ONLINE</p>
-					</div>
-				</div>
-
-
-
-
+            <?php   require('inc/home.php');   ?>
+                
+                
+                
 
 			<?php }elseif($pageTitle == "TimeKeeper"){?>
 
@@ -278,72 +246,15 @@ if($_GET["directory"] == "home"){
         <?php }elseif($pageTitle == "About" ){ ?>
 
 
-
-
-
-
-        <div id="profilediv">
-        	  <img src="image/profilepic2.png" class="profilepic">
-            <div class="about-me">
-               <p>Joining shapes,arranging lines to form patterns, Mixing colors in sight appealing methods are what makes a good design.</p> 
-                <p>I'm a fine artist who now sees a blank canvas on the web .My passion for creativity has been my driving force to learning new skills and working with modern tools.</p>
-                <p></p>
-                <p>I spend most of my time Coding out ideas by learning online , trying codes out, sketching , solving problems through design thinking which has been fun and challenging ,playing games and writing poems <a href="poems.php" target="_blank">Read Poem</a>.  </p>
-                <p></p>
-            </div>
-            <style>.wrapper{background-image: linear-gradient(white,white);}
-                    .nav-list a{color: black;}
-                    .fa-bars{color: black;}
-            </style>
-        </div>
-
-
-<!--Joining shapes,arranging lines to form patterns, Mixing colors in sight appealing methods are what makes a good design. I'm a fine artist who now sees a blank canvas on the web . My passion for creativity has been my driving force to learning new skills and working with modern tools. Applying design thinking to solve problems is something i find interesting and challenging, -->
-
-
-
-
-
-
+        <?php require('inc/about.php'); ?>
 
 
         <?php }else if($pageTitle == "Contact"){ ?>
                 
-            
-        <div class="contact-div">    
-           <table class="send-message">
-               <form>
-
-                   <tr>
-                       <th>
-                           <h3>Send a Message</h3>
-                           <input type="text" name="name" id="name" placeholder="Name"></th>
-                   </tr>
-                   
-                   <tr>
-                       <th>
-                           <input type="email" name="email" id="email" placeholder="Email"></th>
-                   </tr>
-                   
-                   <tr>
-                       <th>
-                           <input type="number" name="phone" id="phone" placeholder="Phone"></th>
-                   </tr>
-                   
-                   <tr>
-                       <th>
-                           <textarea  name="message" id="message" placeholder="Message"></textarea><br>
-                           <button><i class="fas fa-paper-plane"></i></button>
-                   </tr>
-                </form>
-            </table> 
-            
-            <div class="contact-details">
-               <i class="fab fa-whatsapp"></i>&nbsp;&nbsp;<span>+27739594395</span><br>
-                <i class="fas fa-envelope-square"></i>&nbsp;&nbsp;<span>godonweb1@gmail.com</span>
-            </div>
-            
-            </div>    
+                
+     
+        <?php require('inc/contact.php'); ?>
+                
                 
                 
         <?php } ?>
