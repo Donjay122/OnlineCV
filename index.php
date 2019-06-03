@@ -77,7 +77,7 @@ if($_GET["directory"] == "home"){
 	             <img src="image/laptop.png" width="50%" id="laptopng"> 
 	             <div id="portfoliodesc">
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;TimeKeeper</span><br><br>
-	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Codespace Todo App project.</span><br><br>
+	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp; Todo App project.</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Author:&nbsp;&nbsp;Ayodeji Adediran</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span><a class="button" href="https://godonwebtimekeeper.herokuapp.com"  target="_blank">Demo</a></span>
 	                <span><a class="button" href="https://github.com/Donjay122/TimeKeeper" target="_blank">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -107,7 +107,7 @@ if($_GET["directory"] == "home"){
 	             <img src="image/laptop2.png" width="50%" id="laptopng"> 
 	             <div id="portfoliodesc">
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;SpaceBot</span><br><br>
-	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Built with pure javascript, this app was made to answer questions regarding Codespace Academy. Going  open source soon for student contribution.</span><br><br>
+	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Built with pure javascript, this app was made to answer questions regarding crypto market and show latest prices.</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Author:&nbsp;&nbsp;Ayodeji Adediran</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span><a class="button" href="https://spacebot.netlify.com" target="_blank">Demo</a></span>
 	                <span><a class="button" href="https://github.com/Donjay122/SpaceBot" target="_blank">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
