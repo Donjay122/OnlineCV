@@ -455,7 +455,7 @@ h1 + p:hover{
     
     .container{
         padding: 5%;
-	    max-height: calc(100vh - 100px);
+	    min-height: calc(100vh - 100px);
     }
     
     .nav-list{

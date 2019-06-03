@@ -1,14 +1,12 @@
 <?php
-session_start();
-//session_destroy();
+
+
+
 $pageTitle = '';
-
-
-
 if($_GET["directory"] == "home"){
    $pageTitle = "Home";
 }elseif($_GET["directory"] == "portfolio"){
-   $pageTitle = "TimeKeeper";
+   $pageTitle = "Portfolio";
 }elseif($_GET["directory"] == "portfolio2"){
    $pageTitle = "Spacebot";
 }elseif($_GET["directory"] == "portfolio3"){
@@ -38,41 +36,8 @@ if($_GET["directory"] == "home"){
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title><?php echo $pageTitle ; ?></title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width , initial-scale=1">
-		<meta name="author" content="Adediran Ayodeji">
-		<meta name="description" content="Ayodeji's Online CV">
-		<meta name="keywords" content="Ayodeji Adediran , Online CV , Codespace challenge ">
-        <script src="lottie.js" type="text/javascript"></script>
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/dejicv.css">
-	</head>
-		<body>
 
-			<div class="wrapper">
-				<nav>
-						<div class="main-nav">
-                            <a href="index.php"><div id="blink"></div></a>
-                            <script src="blink.js"></script>
-							<ul class="nav-list">
-								<li><a href="index.php?directory=contact"><i class="fas fa-envelope"></i>&nbsp;Contact</a></li>
-								<li><a href="index.php?directory=about"><i class="far fa-address-card"></i>&nbsp;About me</a></li>
-								<li><a href="index.php?directory=portfolio"><i class="fas fa-layer-group"></i>&nbsp;Portfolio</a></li>
-								<li><a href="index.php?directory=home"><i class="fas fa-home"></i>&nbsp;Home</a></li>
-							</ul>
-                            
-                            <div class="bar-icons">
-                                <i class="fas fa-bars"></i>
-                            </div>
-                            
-						</div><!--main-nav-->
-					</nav>
-
+    <?php require('inc/head.php'); ?>
 
 			<div class="container">
 
@@ -88,8 +53,21 @@ if($_GET["directory"] == "home"){
                 
                 
                 
+                
+                
+<!------PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO----> 
+<!------PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO---->
+<!------PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO---->
+                
+                
+                
+                
+                
+                
+                
+                
 
-			<?php }elseif($pageTitle == "TimeKeeper"){?>
+			<?php }elseif($pageTitle == "Portfolio"){?>
 
 
 
@@ -236,10 +214,19 @@ if($_GET["directory"] == "home"){
              </div>
 
 
-             <style type="text/css">.container{padding: 8.2% 0; }</style>   
+             <style type="text/css">.container{padding: 8.2% 0; }</style> 
+                
+                
+                
+                
 
 
-
+<!------PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO---->
+<!------PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO  PORTFOLIO---->
+                
+                
+                
+                
 
 
 
@@ -260,14 +247,5 @@ if($_GET["directory"] == "home"){
         <?php } ?>
 			</div><!--container------------------------------------------------------------------------->	
 
-		</div><!--wrapper-->	
-	        <footer>
-				<div class="footer">
-					<p class="copyright"><i class="fab fa-twitter-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-github-square"></i></p>&nbsp;&nbsp;&nbsp;<span class="copyrightname">&copy; 2019 Ayodeji Adediran</span><form><input type="text" name="name" placeholder="Medium updates...">&nbsp;<button>Subscribe&nbsp;&nbsp;<i class="fab fa-medium"></i></button></form>
-				</div>
-
-			</footer>
-            
-            <script src='index.js' type='text/javascript'></script>
-		</body>
+        <?php require('inc/footer.php'); ?>
 </html>
