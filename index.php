@@ -80,7 +80,7 @@ if($_GET["directory"] == "home"){
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Codespace Todo App project.</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Author:&nbsp;&nbsp;Ayodeji Adediran</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span><a class="button" href="https://godonwebtimekeeper.herokuapp.com"  target="_blank">Demo</a></span>
-	                <span><a class="button" href="#">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                <span><a class="button" href="https://github.com/Donjay122/TimeKeeper" target="_blank">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span id="technologies"><i class="fab fa-php"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span id="technologies"><i class="fab fa-js"></i></span>
 	             </div>
@@ -110,7 +110,7 @@ if($_GET["directory"] == "home"){
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Built with pure javascript, this app was made to answer questions regarding Codespace Academy. Going  open source soon for student contribution.</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Author:&nbsp;&nbsp;Ayodeji Adediran</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span><a class="button" href="https://spacebot.netlify.com" target="_blank">Demo</a></span>
-	                <span><a class="button" href="#">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                <span><a class="button" href="https://github.com/Donjay122/SpaceBot" target="_blank">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span id="technologies"><i class="fab fa-js"></i></span>
 	             </div>
              </div>
@@ -141,8 +141,8 @@ if($_GET["directory"] == "home"){
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;Travel Booking</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Codespace Travel Booking App project. Built during MySQL database course.</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Author:&nbsp;&nbsp;Ayodeji Adediran</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	                <span><a class="button" href="#">Demo</a></span>
-	                <span><a class="button" href="#">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                <span><a class="button" href="https://godonwebookings.herokuapp.com/" target="_blank">Demo</a></span>
+	                <span><a class="button" href="https://github.com/Donjay122/HotelBooking" target="_blank">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span id="technologies"><i class="fab fa-php"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span id="technologies"><i class="fas fa-server"></i></span>
 	             </div>
@@ -170,8 +170,8 @@ if($_GET["directory"] == "home"){
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;MusicBank</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Blockchain Crypto Account for Music artiste</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Author:&nbsp;&nbsp;Ayodeji Adediran</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	                <span><a class="button" href="#">Demo</a></span>
-	                <span><a class="button" href="#">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                <span><a class="button" href="https://godonwebmusicbank.herokuapp.com/" target="_blank">Demo</a></span>
+	                <span><a class="button" href="https://github.com/Donjay122/MusicBank" target="_blank">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span id="technologies"><i class="fab fa-php"></i></span>
 	             </div>
              </div>
@@ -202,8 +202,8 @@ if($_GET["directory"] == "home"){
 	             	<span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Title :&nbsp;&nbsp;Quiz Challenge</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Desc :&nbsp;&nbsp;Codespace javascript quiz challenge</span><br><br>
 	                <span><i class="fas fa-asterisk"></i>&nbsp;&nbsp;Author:&nbsp;&nbsp;Ayodeji Adediran</span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	                <span><a class="button" href="#">Demo</a></span>
-	                <span><a class="button" href="#">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                <span><a class="button" href="https://onlinequiz.netlify.com/" target="_blank">Demo</a></span>
+	                <span><a class="button" href="https://github.com/Donjay122/QuizChallenge" target="_blank">Github</a></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	                <span id="technologies"><i class="fab fa-js"></i></span>
 	             </div>
              </div>
