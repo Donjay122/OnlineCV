@@ -2,7 +2,7 @@
 
 
 
-$pageTitle = '';
+$pageTitle = 'Ayodeji Adediran';
 if($_GET["directory"] == "home"){
    $pageTitle = "Home";
 }elseif($_GET["directory"] == "portfolio"){
