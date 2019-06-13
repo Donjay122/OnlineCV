@@ -44,7 +44,7 @@ if($_GET["directory"] == "home"){
 
 
 
-			<?php if($pageTitle == "Home" || $pageTitle == ''){?>
+			<?php if($pageTitle == "Home" || $pageTitle == 'Ayodeji Adediran'){?>
                 
                 
                 
