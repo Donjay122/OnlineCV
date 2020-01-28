@@ -20,16 +20,16 @@
                             <a href="index.php"><div id="blink"></div></a>
                             <script src="blink.js"></script>
 							<ul class="nav-list">
-								<li><a href="index.php?directory=contact"  style="<?php if($pageTitle == 'Contact'){echo "color:violet"; } ?>"><i class="fas fa-envelope"></i>&nbsp;Contact</a></li>
+								<li><a href="index.php?directory=contact"  style="<?php if($pageTitle == 'Contact'){echo "color:white"; } ?>"><i class="fas fa-envelope"></i>&nbsp;Contact</a></li>
                                 
                                 
-								<li><a href="index.php?directory=about"  style="<?php if($pageTitle == 'About'){echo "color:violet"; } ?>"><i class="far fa-address-card"></i>&nbsp;About me</a></li>
+								<li><a href="index.php?directory=about"  style="<?php if($pageTitle == 'About'){echo "color:dodgerblue"; } ?>"><i class="far fa-address-card"></i>&nbsp;About me</a></li>
                                 
                                 
-								<li><a href="index.php?directory=portfolio"  style="<?php if($pageTitle == 'Portfolio'){echo "color:violet"; } ?>"><i class="fas fa-layer-group"></i>&nbsp;Portfolio</a></li>
+								<li><a href="index.php?directory=factimes"  style="<?php if($pageTitle == 'Factimes'){echo "color:dodgerblue"; } ?>"><i class="fas fa-layer-group"></i>&nbsp;Portfolio</a></li>
                                 
                                 
-								<li><a href="index.php?directory=home" style="<?php if($pageTitle == 'Home'){echo "color:violet"; } ?>"><i class="fas fa-home"></i>&nbsp;Home</a></li>
+								<li><a href="index.php?directory=home" style="<?php if($pageTitle == 'Home'){echo "color:white"; } ?>"><i class="fas fa-home"></i>&nbsp;Home</a></li>
 							</ul>
                             
                             <div class="bar-icons">
